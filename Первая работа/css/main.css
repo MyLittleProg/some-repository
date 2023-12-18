@@ -124,6 +124,18 @@ body{
    left:70%;
    top:55vh;
 }
+.slider{
+    position: absolute;
+    right: 1rem;
+}
+.dots{
+    font-size: 250%;
+    height: 25px;
+    opacity: 25%;
+}
+[data-active]{
+    opacity: 1;
+}
 .prodcts:hover{
     text-decoration: underline;
     text-underline-offset: 6px;
